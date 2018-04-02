@@ -1,0 +1,144 @@
+<ScrollView android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:fillViewport="true"
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+<LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@color/colorLightGray"
+        >
+
+            <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorLightGray"    >
+            <ImageView
+                android:id="@+id/iv_profile"
+                android:layout_width="@dimen/d_150dp"
+                android:layout_height="@dimen/d_150dp"
+                android:background="@drawable/view_circular"
+                android:layout_centerInParent="true"
+
+                android:layout_marginTop="@dimen/d_10dp"/>
+            <TextView
+                android:id="@+id/tv_view_profile"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/view_profile"
+                android:layout_below="@+id/iv_profile"
+                android:textColor="@android:color/black"
+                android:textStyle="bold"
+                android:textSize="@dimen/tv_18sp"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="@dimen/d_10dp"
+                />
+        </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:elevation="@dimen/d_5dp"
+            android:layout_marginTop="@dimen/d_10dp"
+            >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/tv_18sp"
+                android:textColor="@android:color/black"
+                android:text="@string/update_profile"
+                android:padding="@dimen/d_10dp"
+                android:drawablePadding="@dimen/d_20dp"
+                android:drawableLeft="@drawable/update_profile"/>
+        </android.support.v7.widget.CardView>
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:elevation="@dimen/d_10dp"
+            android:layout_marginTop="@dimen/d_5dp"
+            >
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/tv_18sp"
+                android:textColor="@android:color/black"
+                android:text="@string/travel_updates"
+                android:drawablePadding="@dimen/d_20dp"
+                android:padding="@dimen/d_10dp"
+                android:drawableLeft="@drawable/status"/>
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:elevation="@dimen/d_1dp"
+            android:layout_marginTop="@dimen/d_20dp"
+            >
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/tv_18sp"
+                android:drawablePadding="@dimen/d_20dp"
+                android:textColor="@android:color/black"
+                android:text="@string/my_plans"
+                android:padding="@dimen/d_10dp"
+                android:drawableLeft="@drawable/my_plans"/>
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/d_20dp"
+            android:elevation="@dimen/d_5dp">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/tv_18sp"
+                android:drawablePadding="@dimen/d_20dp"
+                android:textColor="@android:color/black"
+                android:text="@string/settings"
+                android:padding="@dimen/d_10dp"
+                android:drawableLeft="@drawable/invite_friends"/>
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/d_5dp"
+            android:elevation="@dimen/d_3dp">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/tv_18sp"
+                android:textColor="@android:color/black"
+                android:text="@string/invite_friends"
+                android:drawablePadding="@dimen/d_20dp"
+                android:padding="@dimen/d_10dp"
+                android:drawableLeft="@drawable/ic_update_profile"/>
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/d_5dp"
+            android:elevation="@dimen/d_10dp">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/tv_18sp"
+                android:textColor="@android:color/black"
+                android:text="@string/help"
+                android:padding="@dimen/d_10dp"
+                android:drawablePadding="@dimen/d_20dp"
+                android:drawableLeft="@drawable/help"/>
+        </android.support.v7.widget.CardView>
+    </LinearLayout>
+</LinearLayout>
+    </ScrollView>

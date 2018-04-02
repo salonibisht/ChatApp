@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.appinventiv.taskfirebasedatabase.activity.CreateAccountActivity">
+
+    <include layout="@layout/view_toolbar"
+android:id="@+id/custom_toolbar"
+        />
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/d_1dp"
+        android:background="@android:color/darker_gray"
+        app:layout_constraintTop_toBottomOf="@+id/custom_toolbar"/>
+
+    <Button
+        android:id="@+id/btn_continue_facebook"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/d_20dp"
+        android:background="@drawable/btn_circular_corner_blue"
+        android:text="@string/continue_with_facebook"
+        android:textAllCaps="false"
+        android:textColor="@android:color/white"
+        android:textSize="@dimen/tv_18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.327" />
+
+    <Button
+        android:id="@+id/btn_continue_google"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/d_20dp"
+        android:background="@drawable/btn_circular_corner_red"
+        android:text="@string/continue_with_google"
+        android:textAllCaps="false"
+        android:textColor="@android:color/white"
+        android:textSize="@dimen/tv_18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_or" />
+
+    <Button
+        android:id="@+id/btn_continue_email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/d_20dp"
+        android:background="@drawable/btn_circular_corner_border_orange"
+        android:text="@string/continue_with_email"
+        android:textAllCaps="false"
+        android:textColor="@android:color/holo_orange_dark"
+        android:textSize="@dimen/tv_18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_continue_google" />
+
+    <TextView
+        android:id="@+id/sign_up_with_facebook"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/d_20dp"
+        android:gravity="center"
+        android:text="@string/sign_up_with_facebook_to_see_when_you_cross_path_with_your_friends"
+        android:textSize="@dimen/tv_15sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_continue_facebook" />
+
+    <TextView
+        android:id="@+id/tv_or"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/d_10dp"
+        android:text="@string/or"
+        android:textSize="@dimen/tv_15sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/sign_up_with_facebook" />
+<View
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/d_1dp"
+    android:id="@+id/view_gray"
+    android:background="@android:color/darker_gray"
+    android:layout_marginTop="@dimen/d_20dp"
+    app:layout_constraintTop_toBottomOf="@+id/btn_continue_email"
+    />
+
+    <TextView
+        android:id="@+id/privacy_policy"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="@dimen/d_8dp"
+        android:layout_marginStart="@dimen/d_8dp"
+        android:layout_marginTop="@dimen/d_10dp"
+        android:gravity="center"
+        android:text="@string/by_continuing_you_agree_to_roammates_t_amp_c_and_the_roammate_privacy_policy"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/view_gray" />
+
+</android.support.constraint.ConstraintLayout>

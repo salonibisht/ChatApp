@@ -1,0 +1,86 @@
+<resources>
+    <string name="app_name">TaskFirebaseDatabase</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="log_in_with_google">Log in with Google</string>
+    <string name="log_in_with_facebook">Log in with Facebook</string>
+    <string name="forgot_your_password">Forgot your Password?</string>
+    <string name="create_account">Create Account</string>
+    <string name="log_in">Log In</string>
+    <string name="name">Name</string>
+    <string name="enter_your_email_adress_that_you_used_to_register_we_will_send_you_an_email_to_reset_your_password">Enter your email adress that you used to register.We will send you an email to reset your password</string>
+    <string name="enter_emailid_or_username">Enter EmailId or UserName</string>
+    <string name="view_profile">View Profile</string>
+    <string name="update_profile">Update Profile</string>
+    <string name="travel_updates">Travel Updates</string>
+    <string name="settings">Settings</string>
+    <string name="invite_friends">Invite Friends</string>
+    <string name="help">Help</string>
+    <string name="my_plans">My Plans</string>
+    <string name="find_plans_near_me">Find plans near me</string>
+    <string name="continue_with_facebook">Continue with Facebook</string>
+    <string name="continue_with_google">Continue with Google</string>
+    <string name="continue_with_email">Continue with Email</string>
+    <string name="or">OR</string>
+    <string name="sign_up_with_facebook_to_see_when_you_cross_path_with_your_friends">Sign Up with Facebook to see when you cross path with your friends</string>
+    <string name="please_enter_email_id">Please enter your email id</string>
+    <string name="please_enter_password">Please enter your password</string>
+    <string name="please_verify_email_address">Please verify your email address</string>
+    <string name="please_check_internet_connection">Please check your Internet Connection</string>
+    <string name="email_not_send_due_to_some_error">Email not send due to error</string>
+    <string name="not_successfully_signed_in">Not successfully signed in</string>
+    <string name="welcome">Welcome!</string>
+    <string name="create_an_account_in_easy_style">Create an account in easy style</string>
+    <string name="chatapplication">ChatApplication</string>
+    <string name="first_name">First Name</string>
+    <string name="surname">Surname</string>
+    <string name="username">Username</string>
+    <string name="date_of_birth">Date of Birth</string>
+    <string name="mobile_number">Mobile Number</string>
+    <string name="submit">Submit</string>
+    <string name="female">Female</string>
+    <string name="male">Male</string>
+    <string name="app_secret">141246d8a11b07eb331b96851ae6b78e</string>
+    <string name="facebook_app_id">193958764542833</string>
+    <string-array name="select_gender">
+        <item>Male</item>
+        <item>Female</item>
+    </string-array>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="you_are_already_sign_in">You are already Sign In</string>
+    <string name="signed_in_with_credentials_successsfully">Signed in with Credentials Successfully</string>
+    <string name="sing_in_with_credential_failed">signInWithCredential:failure</string>
+    <string name="Authentication_failed">Authentication Failed</string>
+    <string name="facebook_error">facebook error</string>
+    <string name="cancelled">cancelled</string>
+    <string name="please_check_email_to_reset_password">Please Check Email to reset password</string>
+    <string name="by_continuing_you_agree_to_roammates_t_amp_c_and_the_roammate_privacy_policy"><![CDATA[By continuing,you agree to roammates T &C and the roammate privacy policy]]></string>
+    <string name="personalize_your_travel_profile_to_connect_with_roamers_to_share_your_passion_and_travel_style">Personalize your travel profile to connect with roamers to share your passion and travel style</string>
+    <string name="find_roamers_like_you">Find roamers like you</string>
+    <string name="ok">OK</string>
+    <string name="cancel">Cancel</string>
+    <string name="title_enter_phone_number">Enter your phone number</string>
+    <string name="please_enter_user_name">Please enter user name</string>
+    <string name="please_enter_mobile_nuber">Please enter mobile number</string>
+    <string name="please_enter_date_of_birth">Please enter Date of birth</string>
+    <string name="please_enter_surname">Please enter surname</string>
+    <string name="please_enter_first_name">Please enter first name</string>
+    <string name="your_data_has_been_submitted">Your data has been submitted</string>
+    <string name="some_database_error_occured">Some database error occured</string>
+    <string name="Reset_passsword">Reset Password</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="first_verify_your_email_id">First Please Verify Your Email Id</string>
+    <string name="permission_denied">permission denied</string>
+    <string name="there_are_no_contacts">There are no contacts</string>
+    <string name="messages">Messages</string>
+    <string name="Authentication_Failed">Authentication Failed</string>
+    <string name="please_enter_a_valid_emailid">Please enter a valid emailid</string>
+    <string name="send">Send</string>
+    <string name="loading">Loading</string>
+    <string name="empty_message">Empty message!</string>
+    <string name="cgat">Can\'t chat with this user</string>
+    <string name="present_in_database">present In databse</string>
+    <string name="not_present_in_database">not present In databse</string>
+</resources>

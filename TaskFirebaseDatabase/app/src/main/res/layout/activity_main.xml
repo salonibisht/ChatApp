@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+   >
+    <android.support.v4.view.ViewPager
+        android:id="@+id/image_pager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+       >
+
+    </android.support.v4.view.ViewPager>
+
+    <me.relex.circleindicator.CircleIndicator
+        android:id="@+id/indicator"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/d_25dp"
+        android:layout_marginBottom="@dimen/d_10dp"
+        android:layout_above="@+id/btn_create_account"
+        app:ci_drawable="@drawable/btn_circular_corner_orange"
+        app:ci_drawable_unselected="@android:color/white"
+        />
+    <TextView
+        android:id="@+id/tv_find_roamers"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/tv_18sp"
+        android:text="@string/find_roamers_like_you"
+        android:layout_marginBottom="@dimen/d_10dp"
+        android:layout_centerInParent="true"
+        android:textColor="@android:color/black"
+        android:layout_above="@+id/tv_travel_profile"/>
+    <TextView
+        android:id="@+id/tv_travel_profile"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/tv_15sp"
+        android:text="@string/personalize_your_travel_profile_to_connect_with_roamers_to_share_your_passion_and_travel_style"
+        android:layout_marginBottom="@dimen/d_10dp"
+        android:layout_centerInParent="true"
+        android:gravity="center"
+        android:layout_above="@+id/indicator"/>
+    <Button
+        android:id="@+id/btn_create_account"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/tv_18sp"
+        android:textAllCaps="false"
+        android:text="@string/create_account"
+        android:layout_gravity="center"
+        android:layout_marginLeft="@dimen/d_20dp"
+     android:textColor="@android:color/white"
+        android:layout_marginRight="@dimen/d_20dp"
+        android:layout_above="@+id/btn_log_in"
+        android:background="@drawable/btn_circular_corner_orange"
+        />
+    <Button
+        android:id="@+id/btn_log_in"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/tv_18sp"
+        android:textAllCaps="false"
+        android:text="@string/log_in"
+        android:layout_gravity="center"
+        android:layout_margin="@dimen/d_20dp"
+        android:textColor="#ff4d00"
+        android:layout_above="@+id/tv_find_plans"
+        android:background="@drawable/btn_circular_corner_border_orange"
+        />
+    <TextView
+        android:id="@+id/tv_find_plans"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/tv_18sp"
+        android:text="@string/find_plans_near_me"
+        android:layout_alignParentBottom="true"
+android:layout_centerInParent="true"
+        android:layout_marginBottom="@dimen/d_10dp"/>
+
+</RelativeLayout>
+

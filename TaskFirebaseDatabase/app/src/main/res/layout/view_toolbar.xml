@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.Toolbar
+    android:id="@+id/custom_toolbar"
+    android:layout_width="match_parent"
+    android:layout_height="?attr/actionBarSize"
+    android:elevation="@dimen/d_1dp"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <ImageView
+        android:id="@+id/iv_back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/d_10dp"
+        android:src="@drawable/back"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_centerInParent="true"
+        android:textSize="@dimen/tv_22sp"
+        android:textColor="@android:color/black"
+        android:id="@+id/toolbar_title"/>
+    <ImageView
+        android:id="@+id/toolbar_profile"
+        android:layout_width="@dimen/d_40dp"
+        android:layout_height="@dimen/d_40dp"
+        android:paddingRight="@dimen/d_10dp"
+        android:src="@drawable/mutual_friends"
+        android:visibility="invisible"
+        android:layout_alignParentRight="true"/>
+</RelativeLayout>
+
+</android.support.v7.widget.Toolbar>
